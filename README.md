@@ -7,6 +7,10 @@ ru
 1. Открыть файл по пути: ```autofreezeprops/lua/client/cl_command.lua```
 2. Добавить свой SteamID в таблицу ```whoCanUsingCommand```.
 
+# API
+```getEnabledAutoFreezeProps()``` - получение статуса автозамораживания пропа. (Включен или выключен) - boolean
+
+
 -------------------------
 ## ❄️ AutoFreezeProps is an addon for the game Garry's Mod.
 The main point of this addon is to enable and disable auto-freeze objects when released from fizgana.
@@ -16,4 +20,5 @@ Enable/disable can be entered by entering the command: ```!autofreezeprops```, h
 1. open the file at the path: ```autofreezeprops/lua/client/cl_command.lua```.
 2. Add your SteamID to the ```whoCanUsingCommand``` table.
 
-Translated with DeepL.com (free version)
+# API
+``getEnabledAutoFreezeProps()`` - get the auto-freeze status of the prop. (Enabled or disabled) - boolean
